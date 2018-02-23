@@ -14,7 +14,14 @@ namespace LemonadeStand
         }
         public override void GetParishChance()
         {
-            throw new NotImplementedException();
+            if (parishTime > daysOld)
+            {
+                parishChance += 30;
+            }
+            else
+            {
+                parishChance = 10;
+            }
         }
     }
 }
