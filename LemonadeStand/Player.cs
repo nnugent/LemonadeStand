@@ -6,5 +6,6 @@ namespace LemonadeStand
 {
     class Player
     {
+        Inventory inventory;
     }
 }

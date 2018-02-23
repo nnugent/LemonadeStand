@@ -6,5 +6,6 @@ namespace LemonadeStand
 {
     class Inventory
     {
+        List<Ingredient> order;
     }
 }

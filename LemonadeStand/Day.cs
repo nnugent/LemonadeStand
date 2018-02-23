@@ -6,5 +6,6 @@ namespace LemonadeStand
 {
     class Day
     {
+        Weather weather;
     }
 }
