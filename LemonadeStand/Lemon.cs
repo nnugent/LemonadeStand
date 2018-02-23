@@ -10,6 +10,7 @@ namespace LemonadeStand
         {
             unitPrice = .40;
             parishTime = 4;
+            daysOld = 1;
         }
         public override void GetParishChance()
         {
