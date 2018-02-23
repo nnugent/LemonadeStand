@@ -9,6 +9,7 @@ namespace LemonadeStand
         protected int parishTime;
         protected double unitPrice;
         protected double parishChance;
+        protected int daysOld;
 
         public Ingredient()
         {
@@ -38,6 +39,18 @@ namespace LemonadeStand
             get
             {
                 return parishChance/100;
+            }
+        }
+        
+        public int DaysOld
+        {
+            get
+            {
+                return daysOld;
+            }
+            set
+            {
+                daysOld = value;
             }
         }
     }
