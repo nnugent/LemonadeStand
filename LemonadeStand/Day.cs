@@ -6,6 +6,11 @@ namespace LemonadeStand
 {
     class Day
     {
-        Weather weather;
+        public Day(Random rng)
+        {
+            Weather weather = new Weather(rng);
+
+        }
+        
     }
 }

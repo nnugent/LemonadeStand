@@ -4,8 +4,7 @@ using System.Text;
 
 namespace LemonadeStand
 {
-    class Inventory
+    class Athelete : Customer
     {
-        
     }
 }

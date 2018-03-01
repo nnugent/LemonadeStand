@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using LemonadeStand;
 
-namespace LemonadeStand
+
+namespace LemonadeStandTests
 {
-    class Inventory
+    [TestClass]
+    class WeatherTest
     {
         
     }
