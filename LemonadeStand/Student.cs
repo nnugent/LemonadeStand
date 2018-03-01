@@ -11,6 +11,7 @@ namespace LemonadeStand
             prefferedRecipe.NumberOfLemons = 6;
             prefferedRecipe.CupsOfSugar = 4;
             prefferedRecipe.NumberOfIceCubes = 3;
+            budget = 2;
         }
     }
 }

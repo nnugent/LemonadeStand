@@ -12,8 +12,8 @@ namespace LemonadeStand
 
         public Weather(Random rng)
         {
-            getTemperature(rng);
-            getWeatherClarity(rng);
+            getTemperature(rng.Next(100));
+            getWeatherClarity(rng.Next(5));
         }
 
         public int Temperature
@@ -32,9 +32,9 @@ namespace LemonadeStand
             }
         }
 
-        private void getTemperature(Random rng)
+        private void getTemperature(int value)
         {
-            temperature = rng.Next(100);
+            temperature = value;
         }
 
         private void getWeatherClarity(int indexValue)
